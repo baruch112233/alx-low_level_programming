@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * _memset - fills memory with constant byte
- * @s: pointer to be modified
- * @b: the constant that replaces the first n bytes of the pointer
- * @n: unsigned int
- * 
+ * _memset - replaces memory with constant byte
+ * @s: the array to be modified
+ * @b: a constant
+ * @n: unsigned integer
  * Return: modified array
  */
 char *_memset(char *s, char b, unsigned int n)
