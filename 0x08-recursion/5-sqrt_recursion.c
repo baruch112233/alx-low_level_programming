@@ -6,9 +6,19 @@
  */
 int _sqrt_recursion(int n)
 {
-	if (n < 0)
+	int i = 1;
+	int sqrt = i * i;
+
+	if (sqrt > n)
 	{
 		return (-1);
 	}
-	return (_sqrt_recursion(n));
+	else if (sqrt == n)
+	{
+		return (1);
+	}
+	else
+	{
+		return (_sqrt_recursion(n));
+	}
 }
