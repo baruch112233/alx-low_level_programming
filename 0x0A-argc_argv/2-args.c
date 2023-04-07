@@ -12,8 +12,8 @@ int main(int argc, char *argv[])
 
 	if (x < argc)
 	{
-		printf("%s\n", argv[x]);
 		x++;
+		printf("%s\n", argv[x]);
 	}
 	return (0);
 }
