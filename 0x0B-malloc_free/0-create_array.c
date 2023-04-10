@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * *create_array - creates an array of chars and initializes it with a specific char
+ * *create_array - creates an array of chars
  * @size: size of the array
  * @c: char to modify the array
  * Return: NULL if the size is 0, array if success
@@ -10,6 +10,7 @@ char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
 	char *s;
+	
 	i = 0;
 
 	if (size == 0)
