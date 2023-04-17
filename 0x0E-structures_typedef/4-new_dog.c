@@ -8,9 +8,8 @@
 int _strlen(char *s)
 {
 	int i;
-	
+
 	i = 0;
-	
 	if (s[i] != '\0')
 	{
 		i++;
@@ -21,14 +20,14 @@ int _strlen(char *s)
 
 /**
  * _strcpy - copies a string
- * @dest: buffer in to which string is copied
- * @str: string
+ * @dest: destination string
+ * @src: source string
  * Return: pointer to dest
  */
 char *_strcpy(char *dest, char *src)
 {
 	int l, i;
-	
+
 	i = 0;
 	l = 0;
 
