@@ -30,14 +30,14 @@ int main(int argc, char *argv[])
 
 	while (i < bytes)
 	{
+		i++;
 		if (i == (bytes - 1))
 		{
 			printf("%02hhx\n", arr[i]);
 			break;
 		}
-		i++;
 
-		printf("%02hhx ", arr[i]);
+		printf("%02hhx\n", arr[i]);
 	}
 	return (0);
 }
