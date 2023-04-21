@@ -4,7 +4,7 @@
  * @array: array to search in
  * @size: size of an array
  * @cmp: pointer to the comparing fun
- * Return: index of the first element 
+ * Return: index of the first element
  * for which the cmp function does not return 0
  * If no element matches, return -1
  * If size <= 0, return -1
@@ -24,7 +24,6 @@ int int_index(int *array, int size, int (*cmp)(int))
 			}
 		}
 	}
-	
 	return (-1);
 
 }
