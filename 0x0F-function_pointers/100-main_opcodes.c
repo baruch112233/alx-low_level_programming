@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 		}
 		i++;
 
-		printf("%02hhx\n", arr[i]);
+		printf("%02hhx ", arr[i]);
 	}
 	return (0);
 }
